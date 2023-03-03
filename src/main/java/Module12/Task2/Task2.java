@@ -38,6 +38,7 @@ public class Task2 {
                 notifyAll();
             } else {
                 try {
+
                     wait();
                 } catch (InterruptedException e) {
                     System.out.println("Error fizz method");

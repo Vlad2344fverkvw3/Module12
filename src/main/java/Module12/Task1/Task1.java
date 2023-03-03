@@ -6,6 +6,7 @@ public class Task1 {
         public void performed() {
             while (second < 20) {
                 for (int i = 0; i < 5; i++) {
+
                     second++;
                     System.out.printf("Time : %d seconds\n", second);
                 }
